@@ -1,5 +1,7 @@
 # ArcGIS Location Services MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@puran1218/arcgis-location-services-mcp)](https://smithery.ai/server/@puran1218/arcgis-location-services-mcp)
+
 MCP Server for [ArcGIS Location Services](https://developers.arcgis.com/rest/location-based-services/).
 
 ## Tools
@@ -56,6 +58,14 @@ MCP Server for [ArcGIS Location Services](https://developers.arcgis.com/rest/loc
    - Returns: Basemap tile information and status
 
 ## Setup
+
+### Installing via Smithery
+
+To install arcgis-location-services-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@puran1218/arcgis-location-services-mcp):
+
+```bash
+npx -y @smithery/cli install @puran1218/arcgis-location-services-mcp --client claude
+```
 
 ### API Key
 Get an ArcGIS Developer API key by creating an account at [ArcGIS Location Platform](https://location.arcgis.com/) and [generating an API key](https://developers.arcgis.com/documentation/security-and-authentication/api-key-authentication/tutorials/create-an-api-key/).
